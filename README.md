@@ -12,8 +12,8 @@ use ShaheryarMahmod\LuhnAlgorithm;
 $number = 4111111111111111;
 
 // Check digit calculation
-var_dump(Luhn::checksum($number));  // int(1)
+var_dump(LuhnAlgorithm::checksum($number));  // int(1)
 
 // Validate numbers
-var_dump(Luhn::isValid($number));   // bool(true)
+var_dump(LuhnAlgorithm::isValid($number));   // bool(true)
 ```
