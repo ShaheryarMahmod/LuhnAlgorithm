@@ -1,0 +1,25 @@
+{
+    "name": "shaheryarmahmod/luhnalgorithm",
+    "description": "Luhn Algorithm Implementation to validate Debit & Credit Cards and IMEI numbers.",
+    "type": "library",
+    "keywords": [
+        "luhn",
+        "credit card",
+        "debit card",
+        "imei",
+        "luhn algorithm",
+        "php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShaheryarMahmod\\": "src/"
+        }
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Shaheryar Mahmood",
+            "email": "shaheryar.mahmood9@gmail.com"
+        }
+    ]
+}
