@@ -2,10 +2,16 @@
 
 Luhn Algorithm Implementation in PHP to validate Debit &amp; Credit Cards &amp; IMEI numbers.
 
+### Composer
+```
+composer require shaheryarmahmod/luhnalgorithm
+```
+
 ## Example
 
 ```php
 <?php
+require_once 'vendor/autoload.php';
 
 use ShaheryarMahmod\LuhnAlgorithm;
 
